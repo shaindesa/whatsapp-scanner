@@ -2,6 +2,8 @@ import re
 import pandas as pd
 
 def WhatsAppParse(textpath, limit):
+    print("Creating dataframe")
+    
     counting = False
     if limit > 0:
         counting = True

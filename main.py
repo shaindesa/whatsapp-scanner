@@ -24,3 +24,5 @@ if settings["run_time_distribution"]:
 
 if settings["run_media_search"]:
     graphers.media_search(whatsapp_frame, gcname)
+
+print("WhatsApp scan complete. See completed graphs in './out'. Display completed graphs on one page by opening './html/index.html'.")
